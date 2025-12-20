@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* Ensure RTL layout */
+  direction: rtl;
+}
+* {
+    scroll-behavior: smooth;
+}
+body {
+  @apply bg-gradient-to-b from-sky-900 via-indigo-900 to-gray-900 text-slate-100 antialiased;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-slate-800/60 backdrop-blur border border-slate-700/40 rounded-2xl p-6 shadow-lg;
+}
+
+.glass {
+  @apply bg-white/5 border border-white/10 rounded-2xl p-6 shadow-lg;
+}
+
+.avatar-placeholder {
+  @apply w-16 h-16 rounded-full bg-sky-600/20 text-sky-200 flex items-center justify-center font-semibold;
+}
