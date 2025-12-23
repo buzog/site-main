@@ -14,7 +14,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   const members = [
-    { name: 'عاصم عبدالله ناجي', role: 'مهندس برمجيات', image: asem, github: 'https://github.com/buzog/asemnajee', profile: 'http://asem.buzog.com' },
+    { name: 'عاصم عبدالله ناجي', role: 'مهندس برمجيات', image: asem, github: 'https://github.com/asemnajee', profile: 'http://asem.buzog.com' },
     { name: 'محمد عبدالله قاسم', role: 'مهندس برمجيات', image: mAbd, github: 'https://github.com/Mohamed-Abdallh-Kasam-Frhan', profile: 'http://mohammed-qasim.buzog.com' },
     { name: 'محمد سعيد', role: 'مهندس برمجيات', image: mSaid, github: 'https://github.com/M7Saeed4', profile: 'http://mohammad-saeed.buzog.com' },
     { name: 'عبدالله توفيق', role: 'مهندس برمجيات', image: abdullah, github: 'https://github.com/MY-C0DE', profile: 'http://abdullah-tawfiq.buzog.com' },
