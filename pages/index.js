@@ -4,6 +4,7 @@ import TeamCard from '../components/TeamCard'
 import Button from '../components/Button'
 import asem from '../src/asem.png'
 import image from '../src/image.png'
+import abdullah from '../src/abdullah-towfig.png'
 import mAbd from '../src/m7ammedAbdullah.png'
 import mSaid from '../src/m7ammedSaid.png'
 import fahrs from '../src/projectsimages/fahrs.png'
@@ -16,7 +17,8 @@ export default function Home() {
     { name: 'عاصم عبدالله ناجي', role: 'مهندس برمجيات', image: asem, github: 'https://github.com/buzog/asemnajee', profile: 'http://asem.buzog.com' },
     { name: 'محمد عبدالله قاسم', role: 'مهندس برمجيات', image: mAbd, github: 'https://github.com/Mohamed-Abdallh-Kasam-Frhan', profile: 'http://mohammed-qasim.buzog.com' },
     { name: 'محمد سعيد', role: 'مهندس برمجيات', image: mSaid, github: 'https://github.com/M7Saeed4', profile: 'http://mohammad-saeed.buzog.com' },
-    // جمال مجدي: لا توجد صورة متوفرة
+    { name: 'عبدالله توفيق', role: 'مهندس برمجيات', image: abdullah, github: 'https://github.com/MY-C0DE', profile: 'http://abdullah-tawfiq.buzog.com' },
+    { name: 'مهند هاني', role: 'مهندس برمجيات', image: null, github: 'https://github.com', profile: 'http://mohaned.buzog.com' },
     { name: 'جمال مجدي', role: 'مهندس برمجيات', image: null, github: 'https://github.com/', profile: 'http://gamal.buzog.com' },
     { name: 'سماء عبدالسلام', role: 'مهندسة برمجيات', image: null, github: 'https://github.com/SamaAlMasoudi', profile: 'http://sama.buzog.com' },
   ]
